@@ -23,6 +23,14 @@
     - Responsive media queries -
 */
 
+.table-cell{
+  width: 100%;
+  height: 400px;
+  background-image: url('http://s3789585.s3-website-ap-southeast-2.amazonaws.com/bg2.jpg') !important;
+  background-size: cover;
+}
+
+
 
 /* Google fonts & font family
 ==================================================*/
@@ -426,6 +434,8 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+    background-image: url('bg1.jpg') !important; 
+
 }
 
 .box-intro .table-cell {
@@ -445,7 +455,7 @@ b i:last-child {
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #999;
+    color: white;
     line-height: 1.7
 }
 
@@ -460,7 +470,7 @@ b i:last-child {
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;
-    border: 2px solid #888;
+    border: 2px solid white;
     -webkit-animation: intro 1s;
     animation: intro 1s;
 }
@@ -471,7 +481,7 @@ b i:last-child {
     height: 3px;
     margin: 6px auto;
     border-radius: 4px;
-    background: #888;
+    background: white;
     -webkit-animation: finger 2s infinite;
     animation: finger 2s infinite;
 }
