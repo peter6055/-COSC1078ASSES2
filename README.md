@@ -1,4 +1,13 @@
 # COSC1078ASSES1
+Project Info:
+
+Name:LIU SHIH MING
+Student ID:S3789585
+
+GitHub Repo URL: https://github.com/peter6055/COSC1078ASSES1/
+GitHub Pages URL: https://peter6055.github.io/COSC1078ASSES1/
+
+================
 
 Reference List:
 "A Very Simple Popup Box - HTML, CSS, JavaScript", HTML Online, 2020. [Online]. Available: https://html-online.com/articles/simple-popup-box/. [Accessed: 10- Aug- 2020].
