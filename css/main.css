@@ -13,7 +13,7 @@
 }
 
 ::selection {
-  background-color: #f53f51;
+  background-color: rgba(245, 176, 62, 0.72);
   color: #fff;
 }
 
@@ -2452,6 +2452,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .fact-area h1, .fact-area p {
   color: #fff;
+  font-size: 85px;
 }
 
 .fact-area .overlay-bg {
