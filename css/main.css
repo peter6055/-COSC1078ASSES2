@@ -2570,7 +2570,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .course-area {
-  background: #f9f9ff;
+  background-image: url('http://s3789585.s3-website-ap-southeast-2.amazonaws.com/bg4.jpg') !important;
+  background-size: cover;  
 }
 
 .course-area .owl-controls {
