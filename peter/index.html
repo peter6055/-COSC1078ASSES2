@@ -43,26 +43,6 @@
 
 
 
-<div class="container-fluid">
-    <!-- box-intro -->
-    <section class="box-intro">
-        <div class="table-cell">
-            <h1 class="box-headline letters rotate-2">
-                <span class="box-words-wrapper">
-                    <b class="is-visible">Hello!</b>
-                    <b>&nbsp;Welcome!</b>
-                    <b>Good Day!</b>
-                </span>
-            </h1>
-            <h5>This is Peter's Website.</h5>
-        </div>
-
-        <div class="mouse">
-            <div class="scroll"></div>
-        </div>
-    </section>
-    <!-- end box-intro -->
-</div>
 
 
 
@@ -450,77 +430,6 @@
     </div>
 
     <div class="col-md-9">
-
-        <br>
-        <!-- Project idea - Overview -->
-        <div class="pjideah1">Overview </div><br>
-        <div class="pjideap">SHOPMY is a project starting from year 2019. We are a melbourne-based peer to peer shopping platform for everyone to buy and sell their products. We stand in a different position than other common shopping platforms. We refused slow and low quality logistics. We hate a not accelerated disputes processed. We don’t disagree about people “paid” first and “receive” after. We decide to make things differently.
-        </div><br><br>
-
-        <div class="pjideah1">Motivation </div><br>
-        <div class="pjideap">  According to the official research in 2019, Melbourne's online shopping market is expected to reach $35 billion by 2021, with an average increase of 2.5% per year. Furthermore, 400,000 are Asian (includes Chinese, Southeast Asian) and are growing steadily in the following 7 years.  [1] (SHOPMY PTY LTD unpublic whitepaper p.4)  As our research of 800 samples, we had found out over 70% of people think that there should be an improvement of online shopping in Melbourne. They complain about high freight, slow logistics and inefficient customer service. [2] (SHOPMY PTY LTD unpublic whitepaper p.5-6). Our customer behavior research, we realized that the “culture” of shopping was different between easten and westen people’s minds. People who live in Asian countries own a different understanding of user experience than western people, such as Taobao in China and Shopee in south asia and Carousell in Singapore. (UI design and process different). For example, Taobao, Ging Dung, Tmall and Xian Yu, they use similar layouts in their UI Design. These layouts are totally different from ebay or Amazon design.  Moreover, after we studied user understanding we found process flow also influenced users too. Take Shopee, a shopping platform that is successful in 8 countries (https://shopee.com) as an example. It provides a third party payment platform for users to pay into an official bank account first rather than pay to the seller directly. As a result of our study, current shopping platforms that exist in Melbourne are not able to fully target Asian customers. Over 73% of Asian want to try something different and the user experience they understand.
-        </div><br><br><br>
-        <!-- Project idea - Overview -->
-
-        <!-- Project idea - Description -->
-        <div class="pjideah1">Description </div><br>
-
-
-        <div class="pjideah2">Logistic System </div><br>
-        <div class="pjideap">Firstly, our company provides its own logistics company, we can deal with the items within 20kg and 160cm in 5 dollars and delivered within 48 hrs.
-        </div><br><br>
-
-
-        <div class="pjideah2">Banking System</div><br>
-        <div class="pjideap">Secondly, users don’t need to pay directly into the seller's paypal or bank account. We provide more security payments by adding a trust account between seller and buyer. Every transaction will pass through our 3rd bank account. We will release the money after the buyer received the product without any problem. In this case, we can guarantee both seller’s and buyer’s security of using our platform. Also, as we have our own cashing system, we can provide less surcharge to customers and sellers. Currently, our selling fees are 1/30 less and buying fees is  1/3 less than competitors. 
-        </div><br><br>
-
-        <div class="pjideah2">User Experience </div><br>
-        <div class="pjideap">Thirdly, we spend a lot of time on doing user experience research and making our app easy for Aisan to accept it. Not just process flow and UI, we bring even more than that. We provide group buying functions that are popular in Asian. Using our system can easily upload and seller group buying products and avoid people didn’t showing up after the group buying (In our case study, there are over 70% of sellers who don't collect deposits before group buying. Even if you collect deposits by bank transfer, the customer may be concerned about the trustability of the seller.). Finally, don’t forget our core values. Everyone can sell, everyone can buy. Using our system can avoid paying a high volume of selling fees. Also, you have more time to focus on your product. You don’t need to worry about anything else.
-        </div><br><br><br>
-        <!-- Project idea - Description -->
-
-
-
-        <!-- Project idea - tnt -->
-        <div class="pjideah1">Tool and Tech. </div><br>
-        
-        <div class="pjideap">In our front-end system, we build it with vue.js in mobile clients. Back-end are built by PHP and mangoDB.
-        </div><br>
-
-        <div class="pjideah2">Computing Engine </div><br>
-        <div class="pjideap">As SHOPMY needs to be able to handle thousands of sessions doing online shopping at the same time. Google cloud platform compute engine supports us for high performance computing. In this case, we had built an extra virtual machine load balancer. As the budgets are limited, build load balancers can provide a high availability working environment and also provide session balance protection (it won’t be like HA one machine is standby but not working). We had also built 2 load balancers in vpc to avoid overload in a single network interface. All the internet traffic is protected by CDN in cloudflare.
-        </div><br><br>
-
-        <div class="pjideah2">Bucket Storage </div><br>
-        <div class="pjideap">As we think about there might be images transferred every second, using VM built in SSD and Internet to dealing images is not a reliable solution. Combining images in a VM SSD can cost 20x higher budget than using a bucket.  Also, backing up several TB (and it might be growing) can cause difficulty for repair if there are data damage accidents (VM snapshot and backup storage are more expensive than bucket). After that we decided to use AWS S3 technology (10x cheaper than GCS and Azure) for storing our large volume of images and videos.
-        </div><br><br>
-
-
-        <div class="pjideah2">Future </div><br>
-        <div class="pjideap">In future, we will separate HA and load balancers when our VM structure is more complicated. Also try to transfer our app into the App Engine and separate database into CloudSQL for a more specific computing environment.
-        </div><br><br><br>
-        <!-- Project idea - tnt -->
-
-
-
-
-        <!-- Project idea - skill -->
-        <div class="pjideah1">Skill required </div><br>
-        
-        <div class="pjideap">Developing and deploying is not a difficult part. The difficult part may happen if you didn’t take serious consideration when you build the system. In this case, as I am a founder and IT manager of this company, I need to have a few years experience in cloud computing and be able to carefully consider everything that technology we used. In other words, I need to understand how to deploy and manage cloud computing systems. For me, I am quite familiar with using GCP cloud computing and AWS Storage functions, but I am still learning how to use other functions such as VPC technology and CloudSQL in GCP and AWS. I am looking forward to learning some software development skills because my 5 years industry experience are mostly dealing with hardware and management problems.
-        </div><br><br><br>
-        <!-- Project idea - skill -->
-
-
-
-
-        <!-- Project idea - tnt -->
-        <div class="pjideah1"> Outcome </div><br>
-        
-        <div class="pjideap"> SHOPMY are ready for publication at the end of this year. I and our co-founder are looking forward to decreasing the distance online shopping between Asian’s understanding. Also, as our APP and logistic system. Delivery can be easier than it used to be. We hope we can be the top one Melbourne base shopping platform. We hope there won’t be any complaint about terrible experiences in this land we loved. With SHOPMY, you won’t ever feel like staying in a different country. SELL AND BUY. LET’S SHOPMY!
-        </div><br><br><br>
-        <!-- Project idea - tnt -->
 
 
     </div>
