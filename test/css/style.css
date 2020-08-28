@@ -34,6 +34,22 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
+main[role="main-inner-wrapper"] .about-content> a:link{
+	color: ##bba321 !important;
+	font-size: 15px !important;
+	line-height: 30px !important;
+}
+
+
+main[role="main-inner-wrapper"] .about-content> a{
+	color: #ffd600 !important;
+}
+
+p{ 
+	margin: 0px !important;
+}
+
+
 html {
 
 	-ms-text-size-adjust: 100%;
@@ -180,7 +196,7 @@ header[role="header"] nav ul > li{ font-weight:800; font-size:42px; display:bloc
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#404040}
 
-header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#fb5353}
+header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#fb5353;}
 
 header[role="header"] nav #menu-button {width: 31px;font-size: 0;float: right;height: 19px;position: relative; z-index:70;
 
@@ -256,7 +272,7 @@ footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1
 
 main[role="main-inner-wrapper"] .about-content{ background-color:#fb5353; padding-top:57px; padding-left:70px; padding-right:67px; padding-bottom:58px}
 
-main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; padding-bottom:20px}
+main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; }
 
 main[role="main-inner-wrapper"] .thumbnails-pan{ padding-top:30px}
 
