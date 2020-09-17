@@ -25,6 +25,8 @@ Images:
 
 - [6]"Cloud Infrastructure: How Does Cloud Computing Work? | Robots.net", Robots.net, 2020. [Online]. Available: https://robots.net/how-to-guide/cloud-infrastructure-how-it-works/. [Accessed: 17- Sep- 2020].
 
+- [7]"IBM Bluemix IoT Platform | IoT5.net", IOT5.net, 2020. [Online]. Available: https://iot5.net/ibm-bluemix-iot-platform/. [Accessed: 17- Sep- 2020].
+
 
 IT Technology:
 
